@@ -34,9 +34,8 @@ public class MainClass {
     private void initContainer(){
         this.menuBar = new MenuBar();
         this.frame.setMenuBar(this.menuBar);
-        
+
         this.file = new JMenu("Termometro");
-        this.menuBar.add(this.file);
 
         this.panel = new JPanel(new BorderLayout(0,0));
         this.panel.setBorder(new EmptyBorder(0,0,0,0));
